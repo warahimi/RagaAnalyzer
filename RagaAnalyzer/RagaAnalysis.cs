@@ -14,12 +14,12 @@ namespace RagaAnalyzer
             // The full set of notes in order
             List<string>[] fullNotes = {
             new List<string> { "S"},
-            new List<string> { "R₁", "R₂", "R₃" },
-            new List<string> {"G₁", "G₂", "G₃" },
-            new List<string> {"M₁", "M₂", "M₃" },
+            new List<string> { "R1", "R2", "R3" },
+            new List<string> {"G1", "G2", "G3" },
+            new List<string> {"M1", "M2", "M3" },
             new List<string> {"P" },
-            new List<string> {"D₁", "D₂", "D₃"},
-            new List<string> {"N₁", "N₂", "N₃" }
+            new List<string> {"D1", "D2", "D3"},
+            new List<string> {"N1", "N2", "N3" }
         };
 
             List<string> processedNotes = new List<string>();
@@ -32,6 +32,7 @@ namespace RagaAnalyzer
             {
                 // Check if any note from the group is in the input notes
                 var foundNote = noteGroup.FirstOrDefault(note => inputNotes.Contains(note));
+                
 
                 if (foundNote != null)
                 {
@@ -53,26 +54,26 @@ namespace RagaAnalyzer
                 switch (processedNotes[i])
                 {
                     case "S":
-                    case "R₁":
-                    case "G₁":
-                    case "M₁":
+                    case "R1":
+                    case "G1":
+                    case "M1":
                     case "P":
-                    case "D₁":
-                    case "N₁":
+                    case "D1":
+                    case "N1":
                         noteAnalysis[i] = 1; // Basic form of the note
                         break;
-                    case "R₂":
-                    case "G₂":
-                    case "M₂":
-                    case "D₂":
-                    case "N₂":
+                    case "R2":
+                    case "G2":
+                    case "M2":
+                    case "D2":
+                    case "N2":
                         noteAnalysis[i] = 2; // Higher variant of the note
                         break;
-                    case "R₃":
-                    case "G₃":
-                    case "M₃":
-                    case "D₃":
-                    case "N₃":
+                    case "R3":
+                    case "G3":
+                    case "M3":
+                    case "D3":
+                    case "N3":
                         noteAnalysis[i] = 3; // Even higher variant of the note
                         break;
                     default:

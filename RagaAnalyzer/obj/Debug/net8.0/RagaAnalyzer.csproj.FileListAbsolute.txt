@@ -12,3 +12,4 @@ E:\Fall 2023\CPTS 423\RagaAnalyzer\RagaAnalyzer\obj\Debug\net8.0\refint\RagaAnal
 E:\Fall 2023\CPTS 423\RagaAnalyzer\RagaAnalyzer\obj\Debug\net8.0\RagaAnalyzer.pdb
 E:\Fall 2023\CPTS 423\RagaAnalyzer\RagaAnalyzer\obj\Debug\net8.0\RagaAnalyzer.genruntimeconfig.cache
 E:\Fall 2023\CPTS 423\RagaAnalyzer\RagaAnalyzer\obj\Debug\net8.0\ref\RagaAnalyzer.dll
+E:\Fall 2023\CPTS 423\RagaAnalyzer\RagaAnalyzer\obj\Debug\net8.0\RagaAnalyzer.sourcelink.json
